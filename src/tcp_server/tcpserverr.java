@@ -20,7 +20,7 @@ public class tcpserverr {
         while (true) {
             System.out.println("Searching for Client...");
             Socket connection = oursocket.accept();
-            System.out.println("connection uucceeded ");
+            System.out.println("connection succeeded ");
             
             InputStream in = connection.getInputStream();
             OutputStream output = new FileOutputStream("/Users/asefn/OneDrive/Desktop/pana.jpg");
